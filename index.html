@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <title>Document</title>
+    </head>
+
+    <body>
+        <div class="wrap">
+
+            <div class="in">
+                <div>
+                    <h2>輸入notion文章</h2>
+                    <button class="displaynone">X</button>
+                    <textarea class="articleOrg" placeholder="文章原文" name="" id="" cols="30" rows="10"></textarea>
+                    <button class="articleOutput">輸出</button>
+                </div>
+                <div>
+                    <h2>產生標籤</h2>
+                    <textarea class="Url" placeholder="圖片的url" name="" id="" cols="30" rows="5"></textarea>
+                    <button class="tagOutput">輸出</button>
+                    <textarea class="tagFine" placeholder="輸出的標籤" name="" id="" cols="30" rows="5"></textarea>
+                    <button class="copy">複製</button>
+                </div>
+            </div>
+            <div class="out">
+                <h2>輸出的</h2>
+                <div>
+                    <input class="cateAddIn" type="text" style="width: 100px;">
+                    <button class="cateAdd">添加標籤</button>
+                    <div class="cates">
+
+                    </div>
+                </div>
+                <button class="copy-article">複製文章</button>
+
+                <textarea class="articleFine" placeholder="編輯過後的文章" class="text"></textarea>
+            </div>
+
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+            referrerpolicy="no-referrer"></script>
+        <script src="index.js"></script>
+    </body>
+
+</html>
